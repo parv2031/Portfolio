@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parv Dixit | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Abstract Animated Background -->
+    <div class="bg-animation">
+        <div class="stars-1"></div>
+        <div class="stars-2"></div>
+        <div class="stars-3"></div>
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">Parv<span>.</span></a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="mailto:parv9457027151@gmail.com" class="nav-icon" title="Email"><i class='bx bx-envelope'></i></a>
+                <a href="tel:+916398612592" class="nav-icon" title="Phone"><i class='bx bx-phone'></i></a>
+                <a href="Parv_Dixit_Resume.pdf" target="_blank" class="nav-resume-btn">Resume</a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class='bx bx-menu'></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <p class="greeting reveal">Hi, my name is</p>
+            <h1 class="name reveal delay-1">Parv Dixit.</h1>
+            <h2 class="title reveal delay-2">I engineer autonomous systems.</h2>
+            <p class="bio reveal delay-3">
+                I am an Electrical Engineering student specializing in robotics, embedded systems, autonomy, and control. I build intelligent systems, bridging raw hardware with sophisticated algorithms, deep reinforcement learning, and advanced control theory.
+            </p>
+            <div class="hero-cta reveal delay-4">
+                <a href="#projects" class="btn primary">Explore My Work</a>
+                <a href="Parv_Dixit_Resume.pdf" target="_blank" class="btn secondary outline">View Resume</a>
+            </div>
+            <div class="socials reveal delay-5">
+                <a href="https://github.com/parv2031" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://linkedin.com/in/parv-dixit-095247311" target="_blank"><i class='bx bxl-linkedin'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="section-container">
+            <h2 class="section-heading reveal">My Journey</h2>
+            <div class="about-content reveal">
+                <div class="about-text">
+                    <p>
+                        My engineering journey began in Ishapur village, Mathura. Growing up there taught me to stay calm under pressure, work consistently, and rely on discipline. These core values carried me through to the Indian Institute of Technology (IIT) Jodhpur, where I have dedicated myself to full-stack robotics and algorithmic engineering.
+                    </p>
+                    <p>
+                        I thrive in environments where work moves quickly from theoretical algorithms to real-world execution. From architecting complex C++ physics simulators and Deep Reinforcement Learning models to building complete ROS 2 navigation stacks, my focus is always on creating robust, intelligent systems.
+                    </p>
+                    <p>
+                        I value integrity, responsibility, and steady execution. Whether I'm writing highly optimized C++ code for game engines, tuning neural networks, or fabricating custom hardware, I like to understand the real system from its core, find the simplest robust fix, and keep the team calm while moving the build forward.
+                    </p>
+                </div>
+                <div class="achievements-list reveal delay-1">
+                    <h3>Key Milestones</h3>
+                    <ul>
+                        <li><i class='bx bx-check-circle'></i> District Topper in Class 10 (99.2%)</li>
+                        <li><i class='bx bx-check-circle'></i> Secured a seat in IIT Jodhpur</li>
+                        <li><i class='bx bx-check-circle'></i> Finalist, Aeromodelling Event at IIT Bombay Techfest</li>
+                        <li><i class='bx bx-check-circle'></i> Branch Changed from Civil to Electrical Engineering (Driven by a passion for full-stack autonomy)</li>
+                        <li><i class='bx bx-check-circle'></i> 6th Rank overall in Inter IIT Tech Meet 14.0</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Showcase 1 -->
+    <section class="section alt-bg aesthetic-showcase">
+        <div class="section-container">
+            <div class="aesthetic-title-wrapper">
+                <span class="aesthetic-subtitle">AUTONOMOUS NAVIGATION</span>
+                <h2 class="showcase-title reveal">Autonomous Horizons: Engineering a Ground-Up SLAM & Navigation Robot</h2>
+            </div>
+            <div class="showcase-video reveal delay-1">
+                <video autoplay loop muted playsinline>
+                    <source src="media/Mapping.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="education">
+        <div class="section-container">
+            <h2 class="section-heading reveal">Education</h2>
+            <div class="edu-grid">
+                
+                <div class="edu-card reveal">
+                    <div class="edu-main">
+                        <h3>B.Tech in Electrical Engineering</h3>
+                        <p class="institution">Indian Institute of Technology (IIT) Jodhpur</p>
+                        <p class="courses"><strong>Key Coursework:</strong> Signals & Systems, Control Theory, Pattern Recognition & Machine Learning, Digital Design.</p>
+                    </div>
+                    <div class="edu-meta">
+                        <div class="grade">CGPA: 8.28/10</div>
+                        <div class="year">2024 - Present</div>
+                    </div>
+                </div>
+
+                <div class="edu-card reveal delay-1">
+                    <div class="edu-main">
+                        <h3>Class 12 (CBSE)</h3>
+                        <p class="institution">Shriji Baba Saraswati Vidya Mandir</p>
+                        <p class="courses">Physics, Chemistry, Mathematics</p>
+                    </div>
+                    <div class="edu-meta">
+                        <div class="grade">Percentage: 94.6%</div>
+                        <div class="year">2024</div>
+                    </div>
+                </div>
+
+                <div class="edu-card reveal delay-2">
+                    <div class="edu-main">
+                        <h3>Class 10 (CBSE)</h3>
+                        <p class="institution">Shriji Baba Saraswati Vidya Mandir</p>
+                        <p class="courses">Science, Mathematics</p>
+                    </div>
+                    <div class="edu-meta">
+                        <div class="grade">Percentage: 99.2%</div>
+                        <div class="year">2022</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section alt-bg" id="experience">
+        <div class="section-container">
+            <h2 class="section-heading reveal">Professional Experience</h2>
+            <div class="timeline">
+                
+                <div class="timeline-item reveal">
+                    <div class="timeline-content highlight-box">
+                        <span class="date">Oct 2025 – Dec 2025</span>
+                        <h3>Team Lead - Autonomous Warehouse Inspection Robot <a href="https://github.com/parv2031/AMR_IITJ_Inter_IIT_Tech_Meet_14" target="_blank" class="exp-github-link" title="View Source"><i class='bx bxl-github'></i></a></h3>
+                        <h4 class="company">Inter IIT Tech Meet 14.0 (Zomato/Eternal) • <span class="rank-highlight">🏆 6th Rank among 23 IITs</span></h4>
+                        <p>Led a multidisciplinary team to develop a 2WD differential-drive Autonomous Mobile Robot (AMR). Designed a 3-tier ROS 1/ROS 2 software stack enabling precise ±7cm horizontal and ±1cm vertical localization in GPS-denied environments. Fabricated a custom belt-driven T-slot gantry for rapid vertical scanning.</p>
+                        <div class="tech-tags">
+                            <span>Team Leadership</span><span>ROS 2 Nav2</span><span>SLAM</span><span>Jetson Nano</span><span>Arduino</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-content">
+                        <span class="date">Jan 2026 – Apr 2026</span>
+                        <h3>LiDAR SLAM and Autonomous Navigation <a href="https://github.com/parv2031/AutonomousMobileRobot" target="_blank" class="exp-github-link" title="View Source"><i class='bx bxl-github'></i></a></h3>
+                        <h4 class="company">Research Project, IIT Jodhpur</h4>
+                        <p>Deployed a complete ROS 2 Humble AMR architecture. Integrated SLAM Toolbox for 5cm resolution 2D mapping via RP LiDAR A1, and configured Nav2 (A*+DWA) for dynamic obstacle avoidance. Engineered an ESP32 micro-ROS hardware node for reliable 50Hz odometry processing from quadrature encoders and Modbus-UART motor control.</p>
+                        <div class="tech-tags">
+                            <span>micro-ROS</span><span>ESP32</span><span>LiDAR</span><span>Nav2</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-content">
+                        <span class="date">May 2026 – Present</span>
+                        <h3>Mentor – Robotic Arm Painter <a href="https://github.com/parv2031/Painter" target="_blank" class="exp-github-link" title="View Source"><i class='bx bxl-github'></i></a></h3>
+                        <h4 class="company">Robotics Society, IIT Jodhpur</h4>
+                        <p>Mentored a team of 15+ students in developing an end-to-end image-to-painting pipeline for a 3-DoF planar robotic arm. Orchestrated the software pipeline (CLAHE → Canny → contour resampling → inverse kinematics) and implemented advanced B-spline/Chaikin path smoothing. Achieved uniform stroke density and strict joint velocity limits (≤100°/s) via custom ESP32 serial communication.</p>
+                        <div class="tech-tags">
+                            <span>Kinematics</span><span>OpenCV</span><span>Control Theory</span><span>Python</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-content">
+                        <span class="date">Aug 2024 – Dec 2024</span>
+                        <h3>Hardware Engineer – Combat Robotics</h3>
+                        <h4 class="company">Robotics Society, IIT Jodhpur</h4>
+                        <p>Developed core hands-on engineering depth by building a 15kg combat robot from scratch for the RoboWars competition. Gained extensive experience in hardware integration, motor control, and fabricating robust physical systems capable of withstanding extreme mechanical stress.</p>
+                        <div class="tech-tags">
+                            <span>Hardware Design</span><span>Fabrication</span><span>Motor Control</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Showcase 2 -->
+    <section class="section aesthetic-showcase">
+        <div class="section-container">
+            <div class="aesthetic-title-wrapper">
+                <span class="aesthetic-subtitle">DEEP REINFORCEMENT LEARNING</span>
+                <h2 class="showcase-title reveal">Simulating the Future: Reinforcement Learning for Power Grid Stability</h2>
+            </div>
+            <div class="showcase-video reveal delay-1">
+                <video autoplay loop muted playsinline>
+                    <source src="media/SAC_agent_running_on_Power_grid_simulator.webm" type="video/webm">
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section alt-bg" id="projects">
+        <div class="section-container">
+            <h2 class="section-heading reveal">Featured Projects</h2>
+            <div class="project-grid">
+                
+                <div class="project-card reveal" onclick="openModal('modal-aeolus')">
+                    <div class="card-inner">
+                        <div class="card-header">
+                            <i class='bx bx-paper-plane'></i>
+                            <a href="https://github.com/parv2031/AEOLUS" target="_blank" onclick="event.stopPropagation()"><i class='bx bxl-github external-link'></i></a>
+                        </div>
+                        <h3>A.E.O.L.U.S Flight Controller</h3>
+                        <p>A bottom-up, fully customizable quadrotor flight controller firmware designed in MATLAB Simulink using first-principles rigid-body physics.</p>
+                        <div class="tech-tags mini"><span>MATLAB</span><span>Simulink</span><span>Control Systems</span></div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal delay-1" onclick="openModal('modal-sac')">
+                    <div class="card-inner">
+                        <div class="card-header">
+                            <i class='bx bx-network-chart'></i>
+                            <a href="https://github.com/parv2031/AutonomousPowerGrid" target="_blank" onclick="event.stopPropagation()"><i class='bx bxl-github external-link'></i></a>
+                        </div>
+                        <h3>Power Grid Control via RL</h3>
+                        <p>A deep reinforcement learning system training a Soft Actor-Critic agent to autonomously manage a 100-substation simulated power grid.</p>
+                        <div class="tech-tags mini"><span>PyTorch</span><span>C++</span><span>ZeroMQ</span><span>RL</span></div>
+                    </div>
+                </div>
+                
+                <div class="project-card reveal delay-2" onclick="openModal('modal-pluto')">
+                    <div class="card-inner">
+                        <div class="card-header">
+                            <i class='bx bx-target-lock'></i>
+                            <a href="https://github.com/hamzaali738/INTER-IIT-DRONA-AVIATION-PS-" target="_blank" onclick="event.stopPropagation()"><i class='bx bxl-github external-link'></i></a>
+                        </div>
+                        <h3>Pluto Nano Drone Firmware</h3>
+                        <p>Architected a dual-loop state estimator on Cleanflight firmware fusing IMU, optical flow, ToF, and barometer for stable GPS-denied hover.</p>
+                        <div class="tech-tags mini"><span>C</span><span>Cleanflight</span><span>Sensor Fusion</span></div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal" onclick="openModal('modal-chess')">
+                    <div class="card-inner">
+                        <div class="card-header">
+                            <i class='bx bx-chess'></i>
+                            <a href="https://github.com/parv2031/Chess_Game" target="_blank" onclick="event.stopPropagation()"><i class='bx bxl-github external-link'></i></a>
+                        </div>
+                        <h3>GTK Chess Engine</h3>
+                        <p>Authored a cross-platform GUI chess engine in C with exhaustive move validation, check/checkmate detection, and a logic-driven AI opponent.</p>
+                        <div class="tech-tags mini"><span>C</span><span>GTK3</span><span>Cairo</span></div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal delay-1" onclick="openModal('modal-power-visual')">
+                    <div class="card-inner">
+                        <div class="card-header">
+                            <i class='bx bx-bolt-circle'></i>
+                            <a href="https://github.com/parv2031/PowerDistributionSimulator" target="_blank" onclick="event.stopPropagation()"><i class='bx bxl-github external-link'></i></a>
+                        </div>
+                        <h3>Power Grid Visualizer</h3>
+                        <p>Developed a custom C++/Raylib interactive power grid visualization tool featuring widest-path overload rerouting and LOD rendering.</p>
+                        <div class="tech-tags mini"><span>C++</span><span>Raylib</span><span>Algorithms</span></div>
+                    </div>
+                </div>
+
+                <div class="project-card reveal delay-2" onclick="openModal('modal-treasure')">
+                    <div class="card-inner">
+                        <div class="card-header">
+                            <i class='bx bx-map-alt'></i>
+                            <a href="https://github.com/parv2031/Treasure_Hunt_Game" target="_blank" onclick="event.stopPropagation()"><i class='bx bxl-github external-link'></i></a>
+                        </div>
+                        <h3>Campus Treasure Hunt</h3>
+                        <p>An interactive 2D adventure game built with C++ and Raylib featuring mobile joystick controls, dynamic clues, and a fully explorable campus map.</p>
+                        <div class="tech-tags mini"><span>C++</span><span>Raylib</span><span>Game Dev</span></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Showcase 3 -->
+    <section class="section aesthetic-showcase">
+        <div class="section-container">
+            <div class="aesthetic-title-wrapper">
+                <span class="aesthetic-subtitle">AEROSPACE ENGINEERING</span>
+                <h2 class="showcase-title reveal">Pioneering Flight: Designing the Robotics Society's First Custom RC Airplane</h2>
+            </div>
+            <div class="showcase-video reveal delay-1">
+                <video id="flightVideo" autoplay loop muted playsinline>
+                    <source src="media/Test flight.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section alt-bg" id="skills">
+        <div class="section-container">
+            <h2 class="section-heading reveal">Technical Arsenal</h2>
+            <div class="skills-grid">
+                <div class="skill-category reveal">
+                    <div class="category-icon"><i class='bx bx-code-alt'></i></div>
+                    <h3>Software Engineering</h3>
+                    <ul>
+                        <li>Advanced C / C++</li>
+                        <li>Python</li>
+                        <li>Object-Oriented Design</li>
+                        <li>Data Structures & Algorithms</li>
+                    </ul>
+                </div>
+                <div class="skill-category reveal delay-1">
+                    <div class="category-icon"><i class='bx bx-brain'></i></div>
+                    <h3>AI & Algorithms</h3>
+                    <ul>
+                        <li>Deep Reinforcement Learning</li>
+                        <li>PyTorch & OpenCV</li>
+                        <li>Complex Graph Algorithms (A*, Widest-Path)</li>
+                        <li>ZeroMQ & High-Performance IPC</li>
+                    </ul>
+                </div>
+                <div class="skill-category reveal delay-2">
+                    <div class="category-icon"><i class='bx bx-bot'></i></div>
+                    <h3>Robotics & Control</h3>
+                    <ul>
+                        <li>ROS 1 & ROS 2 (Nav2, SLAM)</li>
+                        <li>Sensor Fusion (LiDAR, IMU)</li>
+                        <li>PID & State Estimation</li>
+                        <li>Kinematics & Path Smoothing</li>
+                    </ul>
+                </div>
+                <div class="skill-category reveal delay-3">
+                    <div class="category-icon"><i class='bx bx-microchip'></i></div>
+                    <h3>Hardware & Embedded</h3>
+                    <ul>
+                        <li>ESP32 & Jetson Nano</li>
+                        <li>UART / Modbus Protocol</li>
+                        <li>Encoder Interfacing</li>
+                        <li>Firmware Development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Video Showcase 4 -->
+    <section class="section aesthetic-showcase">
+        <div class="section-container">
+            <div class="aesthetic-title-wrapper">
+                <span class="aesthetic-subtitle">GAME DEVELOPMENT</span>
+                <h2 class="showcase-title reveal">Interactive Campus Map: Building a C++ Treasure Hunt Adventure</h2>
+            </div>
+            <div class="showcase-video reveal delay-1">
+                <video autoplay loop muted playsinline>
+                    <source src="media/Treasure_hunt.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p class="footer-title">Designed and Built by Parv Dixit</p>
+            <div class="contact-info">
+                <a href="mailto:parv9457027151@gmail.com"><i class='bx bx-envelope'></i> parv9457027151@gmail.com</a>
+                <span class="contact-divider">|</span>
+                <a href="tel:+916398612592"><i class='bx bx-phone'></i> +91 6398612592</a>
+            </div>
+            <div class="socials">
+                <a href="https://github.com/parv2031" target="_blank" title="GitHub"><i class='bx bxl-github'></i></a>
+                <a href="https://linkedin.com/in/parv-dixit-095247311" target="_blank" title="LinkedIn"><i class='bx bxl-linkedin'></i></a>
+                <a href="mailto:b24ee1093@iitj.ac.in" title="Academic Email"><i class='bx bxs-institution'></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Project Modals (Text Only) -->
+    <div class="modal-overlay" id="modal-aeolus" onclick="closeModal('modal-aeolus')">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="close-btn" onclick="closeModal('modal-aeolus')"><i class='bx bx-x'></i></button>
+            <h2>A.E.O.L.U.S Flight Controller</h2>
+            <div class="modal-body">
+                <p><strong>Adaptable & Extensible Open-Loop Unmanned System</strong></p>
+                <p>Built from the ground up, this quadrotor firmware was designed using a Model-Based Design (MBD) approach in MATLAB Simulink. Instead of using off-the-shelf PID tuners, I derived the rigid-body physics equations to create a high-fidelity continuous-time plant model.</p>
+                
+                <h4>Key Technical Implementations:</h4>
+                <ul>
+                    <li><strong>Mathematical Modeling:</strong> Formulated a nonlinear plant using a 4x4 control allocation matrix inverse (A⁻¹) to map desired torques (roll, pitch, yaw) and total thrust to individual motor speeds.</li>
+                    <li><strong>Sensor Fusion:</strong> Developed a custom complementary filter (α=0.9995) to seamlessly fuse high-frequency gyroscope data with stable accelerometer and tilt-compensated magnetometer readings, eliminating drift.</li>
+                    <li><strong>Advanced Control Laws:</strong> Cascaded attitude-rate PID controllers augmented with tilt-compensated thrust equations, ensuring that the quadrotor maintains its vertical altitude setpoint even during aggressive pitch/roll maneuvers.</li>
+                </ul>
+                <a href="https://github.com/parv2031/AEOLUS" target="_blank" class="btn primary small mt-4">View Source Code</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-sac" onclick="closeModal('modal-sac')">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="close-btn" onclick="closeModal('modal-sac')"><i class='bx bx-x'></i></button>
+            <h2>Autonomous Power Grid Control via DRL</h2>
+            <div class="modal-body">
+                <p>A sophisticated reinforcement learning framework designed to prevent cascading failures in power distribution networks by dynamically controlling demand scaling and transmission line topology.</p>
+                
+                <h4>System Architecture & Innovations:</h4>
+                <ul>
+                    <li><strong>Custom Physics Engine:</strong> Engineered a highly optimized C++ physics simulator to model power flows across a 100-substation grid, complete with a real-time Raylib visualizer.</li>
+                    <li><strong>Inter-Process Communication:</strong> Bridged the C++ environment with a Python/PyTorch training loop using ultra-fast ZeroMQ (REQ/REP) sockets, bypassing standard Python bottlenecks.</li>
+                    <li><strong>Soft Actor-Critic (SAC) Agent:</strong> Trained a Twin-Critic SAC agent capable of continuous action spaces. Features auto-tuned entropy (τ=0.005) and a heavily engineered 7-component shaped reward function that balances demand service, overload prevention, and topology stability over 8,760-step (annual) episodes.</li>
+                </ul>
+                <a href="https://github.com/parv2031/AutonomousPowerGrid" target="_blank" class="btn primary small mt-4">View Source Code</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-pluto" onclick="closeModal('modal-pluto')">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="close-btn" onclick="closeModal('modal-pluto')"><i class='bx bx-x'></i></button>
+            <h2>Pluto Nano Drone Firmware</h2>
+            <div class="modal-body">
+                <p>Developed for the Inter IIT Tech Meet 14.0 (Drona Aviation Problem Statement), focusing on advanced state estimation for micro-UAVs in GPS-denied environments.</p>
+                
+                <h4>Core Contributions:</h4>
+                <ul>
+                    <li><strong>High-Speed Estimation:</strong> Architected a dual-loop state estimator running on Cleanflight firmware with a blistering 250Hz main control loop.</li>
+                    <li><strong>Multi-Sensor Fusion:</strong> Fused data from IMU, optical flow sensors, Time-of-Flight (ToF) sensors, and barometers. Deployed a mathematically rigorous 3rd-order complementary filter for drift-free altitude, velocity, and bias correction.</li>
+                    <li><strong>Drift Suppression:</strong> Integrated Zero-Velocity Updates (ZUPT) and dynamically weighted optical-flow/IMU blending based on sensor quality. Designed a cascaded Position → Velocity → Attitude PID loop paired with DCM-based attitude estimation.</li>
+                </ul>
+                <a href="https://github.com/hamzaali738/INTER-IIT-DRONA-AVIATION-PS-" target="_blank" class="btn primary small mt-4">View Source Code</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-chess" onclick="closeModal('modal-chess')">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="close-btn" onclick="closeModal('modal-chess')"><i class='bx bx-x'></i></button>
+            <h2>GTK Chess Engine</h2>
+            <div class="modal-body">
+                <p>A showcase of strong C fundamentals, algorithms, and cross-platform GUI development.</p>
+                
+                <h4>Chess Engine (C & GTK3):</h4>
+                <ul>
+                    <li>Wrote a complete chess engine from scratch using the C programming language.</li>
+                    <li>Features a custom Cairo-rendered chessboard, exhaustive legal-move generation, deep check/checkmate detection algorithms, and a logic-driven AI opponent.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-power-visual" onclick="closeModal('modal-power-visual')">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="close-btn" onclick="closeModal('modal-power-visual')"><i class='bx bx-x'></i></button>
+            <h2>Power Grid Visualizer</h2>
+            <div class="modal-body">
+                <p>An interactive visualization tool for hierarchical power distribution networks.</p>
+                
+                <h4>Features:</h4>
+                <ul>
+                    <li>Developed an interactive visualization tool using C++ and the Raylib graphics library.</li>
+                    <li>Implemented complex graph algorithms, including widest-path routing for overload management.</li>
+                    <li>Optimized rendering using Level-of-Detail (LOD) techniques for large-scale grid visualization, allowing for smooth camera panning and zooming.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal-overlay" id="modal-treasure" onclick="closeModal('modal-treasure')">
+        <div class="modal-content" onclick="event.stopPropagation()">
+            <button class="close-btn" onclick="closeModal('modal-treasure')"><i class='bx bx-x'></i></button>
+            <h2>Campus Treasure Hunt</h2>
+            <div class="modal-body">
+                <p>An interactive, game-development project combining graphics programming with engaging logic-based gameplay.</p>
+                
+                <h4>Project Highlights:</h4>
+                <ul>
+                    <li>Built using C++ and the Raylib graphics library, leveraging the custom RayMob framework for seamless mobile/touch input integration.</li>
+                    <li>Features a massive 2D interactive campus map with advanced camera systems (panning, pinch-to-zoom).</li>
+                    <li>Designed an extensible clue-generation and state-saving system, allowing players to navigate complex logic puzzles across multiple levels.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
