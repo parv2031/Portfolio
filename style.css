@@ -121,8 +121,7 @@ a {
     padding: 120px 0;
 }
 .alt-bg {
-    background-color: rgba(18, 20, 26, 0.8);
-    backdrop-filter: blur(10px);
+    background-color: transparent;
 }
 .section-container {
     max-width: 1200px;
